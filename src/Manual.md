@@ -28,7 +28,7 @@ subject Accounting {
     degisken total = salary + bonus;
 } 
 // SBMM: 'salary', 'bonus', and 'total' are deleted here.
-
+```
 ---
 
 ## 📝 Future Tasks (To-Do List)
@@ -47,7 +47,7 @@ Projenin geleceği için İngilizce olarak hazırladığım yapılacaklar listes
 
 Tüm dosyaları (`.hpp` ve `.cpp`) aynı klasöre koyduktan sonra terminalinizde şu komutu çalıştırarak derleme yapabilirsiniz:
 
-### Derleme Komutu:
+### Örneğin g++ için Derleme Komutu:
 ```bash
 g++ -o subc Main.cpp Lexer.cpp Parser.cpp Evaluator.cpp SubjectManager.cpp Token.cpp -std=c++17
 ```
@@ -56,4 +56,6 @@ Interactive Terminal: ```bash ./subc```
 File Execution:
 ```
 ./subc program.sc
+
 ```
+The initial instruction varies from compiler to compiler.
